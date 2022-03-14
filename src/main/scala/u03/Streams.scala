@@ -38,6 +38,7 @@ object Streams extends App:
       cons(init, iterate(next(init))(next))
 
   // TODO: def drop(....)
+
   end Stream
 
   // var simplifies chaining of functions a bit..
